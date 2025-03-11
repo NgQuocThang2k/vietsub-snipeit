@@ -2,23 +2,23 @@
 
 return array(
 
-    'does_not_exist' => 'Địa phương không tồn tại.',
-    'assoc_users'    => 'This location is not currently deletable because it is the location of record for at least one asset or user, has assets assigned to it, or is the parent location of another location. Please update your records to no longer reference this location and try again. ',
-    'assoc_assets'	 => 'Địa phương này hiện tại đã được liên kết với ít nhất một tài sản và không thể xóa. Xin vui lòng cập nhật tài sản của bạn để không còn liên kết với địa phương này nữa và thử lại. ',
-    'assoc_child_loc'	 => 'Địa phương này hiện tại là cấp parent của ít nhật một địa phương con và không thể xóa. Xin vui lòng cập nhật địa phương của bạn để không liên kết đến địa phương này và thử lại. ',
+    'does_not_exist' => 'Địa điểm không tồn tại.',
+    'assoc_users'    => 'Địa điểm này không thể xóa vì hiện đang là địa điểm ghi nhận cho ít nhất một tài sản hoặc người dùng, có tài sản được gán cho nó, hoặc là địa điểm cha của một địa điểm khác. Vui lòng cập nhật dữ liệu của bạn để không còn tham chiếu đến địa điểm này và thử lại.',
+    'assoc_assets'	 => 'Địa điểm này hiện tại đã được liên kết với ít nhất một tài sản và không thể xóa. Xin vui lòng cập nhật tài sản của bạn để không còn liên kết với địa điểm này nữa và thử lại. ',
+    'assoc_child_loc'	 => 'Địa điểm này hiện tại là cấp parent của ít nhật một địa điểm con và không thể xóa. Xin vui lòng cập nhật địa điểm của bạn để không liên kết đến địa điểm này và thử lại. ',
     'assigned_assets' => 'Tài sản được giao',
     'current_location' => 'Vị trí hiện tại',
     'open_map' => 'Open in :map_provider_icon Maps',
 
 
     'create' => array(
-        'error'   => 'Địa phương chưa tạo, xin vui lòng thử lại.',
-        'success' => 'Địa phương đã tạo thành công.'
+        'error'   => 'Địa điểm chưa tạo, xin vui lòng thử lại.',
+        'success' => 'Địa điểm đã tạo thành công.'
     ),
 
     'update' => array(
-        'error'   => 'Địa phương chưa cập nhật, xin vui lòng thử lại',
-        'success' => 'Địa phương đã cập nhật thành công.'
+        'error'   => 'Địa điểm chưa cập nhật, xin vui lòng thử lại',
+        'success' => 'Địa điểm đã cập nhật thành công.'
     ),
 
     'restore' => array(
@@ -27,9 +27,9 @@ return array(
     ),
 
     'delete' => array(
-        'confirm'   	=> 'Bạn có chắc muốn xóa địa phương này?',
-        'error'   => 'Có vấn đề xảy ra khi xóa địa phương. Xin vui lòng thử lại.',
-        'success' => 'Địa phương đã xóa thành công.'
+        'confirm'   	=> 'Bạn có chắc muốn xóa địa điểm này?',
+        'error'   => 'Có vấn đề xảy ra khi xóa địa điểm. Xin vui lòng thử lại.',
+        'success' => 'Địa điểm đã xóa thành công.'
     )
 
 );

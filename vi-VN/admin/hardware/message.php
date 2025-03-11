@@ -86,8 +86,8 @@ return [
     ],
 
     'multi-checkout' => [
-        'error'   => 'Asset was not checked out, please try again|Assets were not checked out, please try again',
-        'success' => 'Asset checked out successfully.|Assets checked out successfully.',
+        'error'   => 'Tài sản chưa được checkout, xin vui lòng thử lại|Các tài sản chưa được checkout, xin vui lòng thử lại',
+        'success' => 'Tài sản đã được checkout thành công.|Các tài sản đã được checkout thành công.',
     ],
 
     'checkin' => [

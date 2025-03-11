@@ -1,8 +1,8 @@
 <?php
 
 return array(
-    'about_licenses_title'      => 'Về giấy phép',
-    'about_licenses'            => 'Giấy phép được sử dụng để theo dõi phần mềm. Họ có một số lượng ghế xác định mà có thể được kiểm tra ra cho cá nhân',
+    'about_licenses_title'      => 'Về Bản quyền',
+    'about_licenses'            => 'Bản quyền được sử dụng để theo dõi phần mềm. Họ có một số lượng ghế xác định mà có thể được kiểm tra ra cho cá nhân',
     'checkin'  					=> 'Checkin bản quyền đặt vào',
     'checkout_history'  		=> 'Lịch sử Checkout',
     'checkout'  				=> 'Checkout bản quyền đặt vào',
@@ -23,30 +23,30 @@ return array(
     'bulk'                      =>
         [
             'checkin_all'           => [
-                'button'            => 'Checkin All Seats',
-                'modal'             => 'This action will checkin one seat. | This action will checkin all :checkedout_seats_count seats for this license.',
-                'enabled_tooltip'   => 'Checkin ALL seats for this license from both users and assets',
-                'disabled_tooltip'  => 'This is disabled because there are no seats currently checked out',
-                'disabled_tooltip_reassignable'  => 'This is disabled because the License is not reassignable',
-                'success'           => 'License successfully checked in! | All licenses were successfully checked in!',
-                'log_msg'           => 'Checked in via bulk license checkin in license GUI',
+                'button'            => 'Thu hồi tất cả bản quyền',
+                'modal'             => 'Hành động này sẽ thu hồi một bản quyền. | Hành động này sẽ thu hồi tất cả :checkedout_seats_count Bản quyền đang sử dụng.',
+                'enabled_tooltip'   => 'Thu hồi TẤT CẢ bản quyền này từ cả người dùng và tài sản',
+                'disabled_tooltip'  => 'Tính năng này bị vô hiệu hóa vì không có bản quyền nào đang được sử dụng',
+                'disabled_tooltip_reassignable'  => 'Tính năng này bị vô hiệu hóa vì bản quyền không thể sử dụng lại',
+                'success'           => 'Bản quyền đã được thu hồi thành công! | Tất cả bản quyền đã được thu hồi thành công!',
+                'log_msg'           => 'Đã thu hồi thông qua tính năng thu hồi hàng loạt trong giao diện quản lý bản quyền',
             ],
 
             'checkout_all'              => [
-                'button'                => 'Checkout All Seats',
-                'modal'                 => 'This action will checkout one seat to the first available user. | This action will checkout all :available_seats_count seats to the first available users. A user is considered available for this seat if they do not already have this license checked out to them, and the Auto-Assign License property is enabled on their user account.',
-                'enabled_tooltip'   => 'Checkout ALL seats (or as many as are available) to ALL users',
-                'disabled_tooltip'  => 'This is disabled because there are no seats currently available',
-                'success'           => 'License successfully checked out! | :count licenses were successfully checked out!',
-                'error_no_seats'    => 'There are no remaining seats left for this license.',
-                'warn_not_enough_seats'    => ':count users were assigned this license, but we ran out of available license seats.',
-                'warn_no_avail_users'    => 'Nothing to do. There are no users who do not already have this license assigned to them.',
-                'log_msg'           => 'Checked out via bulk license checkout in license GUI',
-
+                'button'                => 'Cấp phát tất cả bản quyền',
+                'modal'                 => 'Hành động này sẽ cấp phát một bản quyền cho người dùng khả dụng đầu tiên. | Hành động này sẽ cấp phát tất cả :available_seats_count Bản quyền cho những người dùng khả dụng đầu tiên. Người dùng được coi là khả dụng nếu họ chưa được cấp Bản quyền này và tùy chọn Tự động gán Bản quyền được bật trong tài khoản của họ.',
+                'enabled_tooltip'   => 'Cấp phát TẤT CẢ bản quyền (hoặc nhiều nhất có thể) cho TẤT CẢ người dùng',
+                'disabled_tooltip'  => 'Tính năng này bị vô hiệu hóa vì không có bản quyền nào khả dụng',
+                'success'           => 'Bản quyền đã được cấp phát thành công! | :count bản quyền đã được cấp phát thành công!',
+                'error_no_seats'    => 'Không còn bản quyền nào khả dụng.',
+                'warn_not_enough_seats'    => ':count người dùng đã được gán bản quyền này, nhưng chúng tôi đã hết bản quyền khả dụng.',
+                'warn_no_avail_users'    => 'Nothing to do. Không có người dùng nào chưa được gán bản quyền này.',
+                'log_msg'           => 'Đã cấp phát thông qua tính năng cấp phát hàng loạt trong giao diện quản lý Bản quyền',
 
             ],
     ],
 
-    'below_threshold' => 'There are only :remaining_count seats left for this license with a minimum quantity of :min_amt. You may want to consider purchasing more seats.',
-    'below_threshold_short' => 'This item is below the minimum required quantity.',
+    'below_threshold' => 'Chỉ còn :remaining_count chỗ ngồi cho bản quyền này với số lượng tối thiểu là :min_amt. Bạn nên cân nhắc mua thêm chỗ ngồi sử dụng bản quyền.',
+    'below_threshold_short' => 'Mục này dưới số lượng tối thiểu yêu cầu.',
 );
+

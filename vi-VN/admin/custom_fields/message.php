@@ -5,7 +5,7 @@ return array(
     'field' => array(
         'invalid'   => 'Lĩnh vực đó không tồn tại.',
         'already_added'   => 'Trường đã được thêm',
-        'none_selected'   => 'No field selected',
+        'none_selected'   => 'Không có trường nào được chọn.',
 
         'create' => array(
             'error'   => 'Trường không được tạo, vui lòng thử lại.',
@@ -52,7 +52,7 @@ return array(
 
     'fieldset_default_value' => array(
 
-        'error' => 'Error validating default fieldset values.',
+        'error' => 'Lỗi khi xác thực giá trị mặc định của fieldset.',
 
     ),
 
